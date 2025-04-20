@@ -60,7 +60,7 @@ Pearson Correlation Coefficient between actual and predicted grammar scores.
 - Perform hyperparameter tuning
 """
 
-# 🏁 Goal
+#  Goal
 """
 Create a robust and accurate model capable of predicting grammar scores from voice samples,
 and perform well on the Kaggle leaderboard.
