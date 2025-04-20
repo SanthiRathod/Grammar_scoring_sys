@@ -5,14 +5,14 @@ This notebook provides an overview and description of the Grammar Scoring Engine
 which was part of the SHL Intern Hiring Assessment hosted on Kaggle.
 """
 
-# 📌 Problem Statement
+#  Problem Statement
 """
 You are tasked with building a Grammar Scoring Engine that predicts grammar proficiency
 scores (ranging from 0.0 to 5.0) from spoken English audio samples. Each audio file is
 between 45 to 60 seconds long.
 """
 
-# 📁 Dataset Components
+#  Dataset Components
 """
 - train.csv: Contains filenames and corresponding grammar scores
 - test.csv: Contains filenames for which scores are to be predicted
@@ -21,12 +21,12 @@ between 45 to 60 seconds long.
 - sample_submission.csv: Template for the submission file
 """
 
-# 📊 Evaluation Metric
+#  Evaluation Metric
 """
 Pearson Correlation Coefficient between actual and predicted grammar scores.
 """
 
-# 📌 Approach Summary
+#  Approach Summary
 
 ## 1. Feature Extraction
 """
@@ -52,7 +52,7 @@ Pearson Correlation Coefficient between actual and predicted grammar scores.
 - Format and save the submission file
 """
 
-# 🚀 Potential Improvements
+#  Potential Improvements
 """
 - Use deep learning models (CNNs on spectrograms)
 - Experiment with ensemble models (XGBoost, LightGBM)
